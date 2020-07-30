@@ -5100,7 +5100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c09c49729a9d4e8cc5651893c47bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: WinScreen
+  SceneToLoad: Maze4
   BlueMode: 0
   BlueController: {fileID: 0}
   LevelChanger: {fileID: 780597333}
@@ -21800,7 +21800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: add59c6a6cb317147b76979c2bba2eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  This: {fileID: 0}
 --- !u!136 &1991381881
 CapsuleCollider:
   m_ObjectHideFlags: 0
