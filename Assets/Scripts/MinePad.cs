@@ -11,6 +11,7 @@ public class MinePad : MonoBehaviour
     public bool PlayerInZone;
     public GameObject Player;
     public GameObject BlackScreen;
+    bool Triggered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,17 @@ public class MinePad : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            AudioSource.PlayClipAtPoint(Tick,transform.position);
-            PlayerInZone = true;
-            StartCoroutine(BlowUp());
+            if (Triggered == false)
+            {
+                AudioSource.PlayClipAtPoint(Tick, transform.position);
+                PlayerInZone = true;
+                StartCoroutine(BlowUp());
+                Triggered = true;
+            }
+            else
+            {
+                PlayerInZone = true;
+            }
         }
     }
     private void OnTriggerExit(Collider other)
