@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -15699,7 +15699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c09c49729a9d4e8cc5651893c47bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: WinScreen
+  SceneToLoad: Maze7
   BlueMode: 0
   BlueController: {fileID: 0}
   LevelChanger: {fileID: 14552968}
@@ -22264,6 +22264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021042015300486100, guid: a6a34255e1a221f4db64c0a694fffafe,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2406726479643762281, guid: a6a34255e1a221f4db64c0a694fffafe,
         type: 3}

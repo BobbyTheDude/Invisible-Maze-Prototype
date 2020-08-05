@@ -22263,6 +22263,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2021042015300486100, guid: a6a34255e1a221f4db64c0a694fffafe,
+        type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2406726479643762281, guid: a6a34255e1a221f4db64c0a694fffafe,
         type: 3}
       propertyPath: m_LocalRotation.x
