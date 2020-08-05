@@ -42,6 +42,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Postprocessor.SetActive(false);
+        HintUI.SetActive(false);
     }
    public void Pause()
     {
@@ -68,6 +69,11 @@ public class PauseMenu : MonoBehaviour
     {
         PauseMenuUI.SetActive(false);
         HintUI.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+        Postprocessor.SetActive(true);
     }
     public void HintBack()
     {
