@@ -8,6 +8,7 @@ public class TeleportControl : MonoBehaviour
     public Transform Teleport1;
     public Transform Teleport2;
     public GameObject Player;
+    public AudioClip TeleportSound;
 
     bool TeleportDisabled = false;
 
@@ -23,6 +24,7 @@ public class TeleportControl : MonoBehaviour
                 TeleportDisabled = true;
                 Player.GetComponent<vThirdPersonInput>().enabled = false;
                 Player.transform.position = Teleport2.transform.position;
+                AudioSource.PlayClipAtPoint(TeleportSound, Player.transform.position);
                 StartCoroutine(EnableTeleport());
                 StartCoroutine(EnableMovement());
                 T1 = false;
@@ -40,6 +42,7 @@ public class TeleportControl : MonoBehaviour
                 TeleportDisabled = true;
                 Player.GetComponent<vThirdPersonInput>().enabled = false;
                 Player.transform.position = Teleport1.transform.position;
+                AudioSource.PlayClipAtPoint(TeleportSound, Player.transform.position);
                 StartCoroutine(EnableTeleport());
                 StartCoroutine(EnableMovement());
                 T2 = false;

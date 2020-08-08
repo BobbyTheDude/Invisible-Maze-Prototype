@@ -6,6 +6,7 @@ public class WallVisibility : MonoBehaviour
 {
     public List<GameObject> Walls = new List<GameObject>();
     public float VisibilityTime;
+    public AudioClip Pop;
 
     void Start()
     {
@@ -29,7 +30,9 @@ public class WallVisibility : MonoBehaviour
                 MeshRenderer R = Wall.GetComponent<MeshRenderer>();
                 R.enabled = true;
             }
+            StopCoroutine(WallsVisible());
             StartCoroutine(WallsVisible());
+            AudioSource.PlayClipAtPoint(Pop, transform.position);
         }
     }
     IEnumerator WallsVisible()
@@ -40,6 +43,6 @@ public class WallVisibility : MonoBehaviour
             MeshRenderer R = Wall.GetComponent<MeshRenderer>();
             R.enabled = false;
         }
-
+        AudioSource.PlayClipAtPoint(Pop, transform.position);
     }
 }

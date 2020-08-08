@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour
 {
+    public GameObject Page1;
+    public GameObject Page2;
     public void Tutorial()
     {
         SceneManager.LoadScene("Tutorial");
@@ -28,6 +30,36 @@ public class LevelSelect : MonoBehaviour
     public void Maze5()
     {
         SceneManager.LoadScene("Maze5");
+    }
+    public void Maze6()
+    {
+        SceneManager.LoadScene("Maze6");
+    }
+    public void Maze7()
+    {
+        SceneManager.LoadScene("Maze7");
+    }
+    public void Maze8()
+    {
+        SceneManager.LoadScene("Maze8");
+    }
+    public void Maze9()
+    {
+        SceneManager.LoadScene("Maze9");
+    }
+    public void Maze10()
+    {
+        SceneManager.LoadScene("Maze10");
+    }
+    public void NextPage()
+    {
+        Page1.SetActive(false);
+        Page2.SetActive(true);
+    }
+    public void PreviousPage()
+    {
+        Page1.SetActive(true);
+        Page2.SetActive(false);
     }
     public void Back()
     {

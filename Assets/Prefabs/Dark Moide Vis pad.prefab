@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1340267704281263433}
   - component: {fileID: 1340267704281263432}
   - component: {fileID: 1340267704281263435}
-  - component: {fileID: 1340267704281263434}
+  - component: {fileID: 616328485791568761}
   m_Layer: 0
   m_Name: Dark Moide Vis pad
-  m_TagString: Untagged
+  m_TagString: VisPad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 1.6174958}
   m_Center: {x: 0, y: -8.8122926e-18, z: 0.79874843}
---- !u!114 &1340267704281263434
+--- !u!114 &616328485791568761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,11 +104,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1340267704281263436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6912da0c35c06ec4e8ba27432af87fe7, type: 3}
+  m_Script: {fileID: 11500000, guid: f275fb790e453ba4d9414c79665b9ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Walls: []
-  VisibilityTime: 5
+  SteppedOn: 0
+  WallVisibilityController: {fileID: 0}
 --- !u!1 &1340267704946711214
 GameObject:
   m_ObjectHideFlags: 0

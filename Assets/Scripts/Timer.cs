@@ -12,6 +12,7 @@ public class Timer : MonoBehaviour
     public GameObject BlackScreen;
     public AudioClip Death;
     public GameObject LevelChanger;
+    public GameObject Player;
     public bool dead = false;
 
     // Start is called before the first frame update
@@ -30,7 +31,7 @@ public class Timer : MonoBehaviour
         {
             Debug.Log("We ded");
             BlackScreen.SetActive(true);
-            AudioSource.PlayClipAtPoint(Death, transform.position);
+            AudioSource.PlayClipAtPoint(Death, Player.transform.position);
             Destroy(this.gameObject);
             LevelChanger.GetComponent<LevelChanger>().FadeToLevel("GameOver");
         }
