@@ -89,4 +89,24 @@ public class LevelSelect : MonoBehaviour
     {
         SceneManager.LoadScene("Maze5Blue");
     }
+    public void Maze6Blue()
+    {
+        SceneManager.LoadScene("Maze6Blue");
+    }
+    public void Maze7Blue()
+    {
+        SceneManager.LoadScene("Maze7Blue");
+    }
+    public void Maze8Blue()
+    {
+        SceneManager.LoadScene("Maze8Blue");
+    }
+    public void Maze9Blue()
+    {
+        SceneManager.LoadScene("Maze9Blue");
+    }
+    public void Maze10Blue()
+    {
+        SceneManager.LoadScene("Maze10Blue");
+    }
 }

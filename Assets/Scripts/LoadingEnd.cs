@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoadingEnd : MonoBehaviour
 {
+    public float LoadTime;
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         StartCoroutine(EndLoad());
     }
 
@@ -18,7 +20,7 @@ public class LoadingEnd : MonoBehaviour
     }
     IEnumerator EndLoad()
     {
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(LoadTime);
         SceneManager.LoadScene("MainMenu");
     }
 }

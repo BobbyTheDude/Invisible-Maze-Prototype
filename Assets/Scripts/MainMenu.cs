@@ -12,6 +12,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("BlueModeIntro");
     }
+    public void DarkMode()
+    {
+        SceneManager.LoadScene("DarkModeMenu");
+    }
     public void QuitGame()
     {
         Application.Quit();

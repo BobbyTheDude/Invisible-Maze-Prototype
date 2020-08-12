@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7477252185770560342}
   m_Layer: 0
   m_Name: Changing Pad
-  m_TagString: Untagged
+  m_TagString: ChangePad
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcd2c55de1fe20489c90572d3baf9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Color: {fileID: 2100000, guid: a3be5bf89a1990749af9f5a0e43205cb, type: 2}
+  Color: {fileID: 0}
+  BlueMode: 0
+  BlueController: {fileID: 0}
+  HasSteppedOn: 0
 --- !u!65 &7477252185770560342
 BoxCollider:
   m_ObjectHideFlags: 0
