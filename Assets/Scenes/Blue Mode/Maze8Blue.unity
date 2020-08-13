@@ -2047,6 +2047,7 @@ MonoBehaviour:
   Stepped: 0
   Timer: {fileID: 495403011}
   Color: {fileID: 2100000, guid: 8403ca981871ffd4facf94e51d58dc10, type: 2}
+  ExtraTimeSound: {fileID: 0}
 --- !u!1001 &175187790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10143,6 +10144,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 704993878}
     m_Modifications:
+    - target: {fileID: 1501851124, guid: a52b1cd8396454b4db41a5c6fcdb6d07, type: 3}
+      propertyPath: Timer
+      value: 
+      objectReference: {fileID: 495403011}
     - target: {fileID: 2272850777090422109, guid: a52b1cd8396454b4db41a5c6fcdb6d07,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10203,13 +10208,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExtraTime Pad (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6106496436585493522, guid: a52b1cd8396454b4db41a5c6fcdb6d07,
-        type: 3}
-      propertyPath: Color
-      value: 
-      objectReference: {fileID: 2100000, guid: 8403ca981871ffd4facf94e51d58dc10, type: 2}
-    m_RemovedComponents:
-    - {fileID: 6106496436585493522, guid: a52b1cd8396454b4db41a5c6fcdb6d07, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a52b1cd8396454b4db41a5c6fcdb6d07, type: 3}
 --- !u!1001 &1291105953
 PrefabInstance:
@@ -11913,33 +11912,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 387890f90ba51aa40b2b32d51585905e, type: 3}
---- !u!1 &1501851122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6106496436585493520, guid: a52b1cd8396454b4db41a5c6fcdb6d07,
-    type: 3}
-  m_PrefabInstance: {fileID: 1245370803}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1501851123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2272850777090422109, guid: a52b1cd8396454b4db41a5c6fcdb6d07,
     type: 3}
   m_PrefabInstance: {fileID: 1245370803}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1501851124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501851122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49191c8965e821240a6ec999e3fbeef3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Stepped: 0
-  Timer: {fileID: 495403011}
-  Color: {fileID: 2100000, guid: 8403ca981871ffd4facf94e51d58dc10, type: 2}
 --- !u!1001 &1503638726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12082,6 +12060,7 @@ MonoBehaviour:
   Stepped: 0
   Timer: {fileID: 495403011}
   Color: {fileID: 2100000, guid: 8403ca981871ffd4facf94e51d58dc10, type: 2}
+  ExtraTimeSound: {fileID: 0}
 --- !u!1 &1517137098
 GameObject:
   m_ObjectHideFlags: 0

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3484,6 +3484,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine Pad (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4245,6 +4250,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mine Pad (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
@@ -5152,6 +5162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mine Pad (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
@@ -6125,6 +6140,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine Pad (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6229,6 +6249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mine Pad (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
@@ -6510,6 +6535,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mine Pad (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
@@ -8665,6 +8695,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Final Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 3273889848934935489, guid: 50b1aa026e4ff36438dff7277df3c962,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7375588742811757196, guid: 50b1aa026e4ff36438dff7277df3c962,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8889,6 +8924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mine Pad (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
@@ -12185,6 +12225,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mine Pad (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1624302415052672541, guid: ac3903b97f79c9e46a92e446325047e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6755054101495156560, guid: ac3903b97f79c9e46a92e446325047e0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14102,6 +14147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lift Pad Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714458124449537596, guid: bf37c6606fc85b64197c98a17f8fa251,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf37c6606fc85b64197c98a17f8fa251, type: 3}
