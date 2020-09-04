@@ -2783,7 +2783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c09c49729a9d4e8cc5651893c47bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Maze5
+  SceneToLoad: Maze5Blue
   BlueMode: 1
   BlueController: {fileID: 173400826}
   LevelChanger: {fileID: 96013184}
@@ -21236,6 +21236,11 @@ PrefabInstance:
       propertyPath: Hint
       value: Once on the platform, you can jump over walls to get to certain areas
         you couldn't access before
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183181935597290774, guid: 1a838631937f1f341bcb58874aececf7,
+        type: 3}
+      propertyPath: NextLevel
+      value: Maze5Blue
       objectReference: {fileID: 0}
     - target: {fileID: 9183181935597290858, guid: 1a838631937f1f341bcb58874aececf7,
         type: 3}

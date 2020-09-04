@@ -22,6 +22,7 @@ public class WallVisibilityControl : MonoBehaviour
         {
             VisPads.Add(NewVisPad);
         }
+        Player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame

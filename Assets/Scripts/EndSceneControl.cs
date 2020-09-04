@@ -14,6 +14,7 @@ public class EndSceneControl : MonoBehaviour
     {
         StartCoroutine(ActivateText());
         IsRunning = true;
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame

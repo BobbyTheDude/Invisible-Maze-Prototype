@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
     public string Hint;
+    public string NextLevel;
     public GameObject HintUI;
     public GameObject HintText;
     public GameObject Postprocessor;
@@ -60,6 +62,10 @@ public class PauseMenu : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void SkipLevel()
+    {
+        SceneManager.LoadScene(NextLevel);
     }
     public void QuitGame()
     {

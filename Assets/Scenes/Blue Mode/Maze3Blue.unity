@@ -728,7 +728,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &35519356
 Transform:
   m_ObjectHideFlags: 0
@@ -5613,7 +5613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c09c49729a9d4e8cc5651893c47bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Maze4
+  SceneToLoad: Maze4Blue
   BlueMode: 1
   BlueController: {fileID: 1334269323}
   LevelChanger: {fileID: 780597333}
@@ -15926,6 +15926,11 @@ PrefabInstance:
       propertyPath: Hint
       value: Once you have hit a purple tile, using zoomed out mode allows you to
         chart a path more efficiently
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183181935597290774, guid: 1a838631937f1f341bcb58874aececf7,
+        type: 3}
+      propertyPath: NextLevel
+      value: Maze4Blue
       objectReference: {fileID: 0}
     - target: {fileID: 9183181935597290858, guid: 1a838631937f1f341bcb58874aececf7,
         type: 3}

@@ -13,19 +13,19 @@ public class LevelSelect : MonoBehaviour
     }
     public void Maze1()
     {
-        SceneManager.LoadScene("Maze1");
+        SceneManager.LoadScene("CutScene1");
     }
     public void Maze2()
     {
-        SceneManager.LoadScene("Maze2");
+        SceneManager.LoadScene("Cutscene2");
     }
     public void Maze3()
     {
-        SceneManager.LoadScene("Maze3");
+        SceneManager.LoadScene("Cutscene3");
     }
     public void Maze4()
     {
-        SceneManager.LoadScene("Maze4");
+        SceneManager.LoadScene("Cutscene4");
     }
     public void Maze5()
     {
@@ -37,19 +37,19 @@ public class LevelSelect : MonoBehaviour
     }
     public void Maze7()
     {
-        SceneManager.LoadScene("Maze7");
+        SceneManager.LoadScene("Cutscene5");
     }
     public void Maze8()
     {
-        SceneManager.LoadScene("Maze8");
+        SceneManager.LoadScene("Cutscene6");
     }
     public void Maze9()
     {
-        SceneManager.LoadScene("Maze9");
+        SceneManager.LoadScene("Cutscene7");
     }
     public void Maze10()
     {
-        SceneManager.LoadScene("Maze10");
+        SceneManager.LoadScene("Cutscene8");
     }
     public void NextPage()
     {

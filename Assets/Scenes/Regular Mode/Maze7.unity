@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3852,6 +3852,11 @@ PrefabInstance:
       propertyPath: Hint
       value: Using zoomed out mode when walls are visible helps chart a quicker path
         to beat the clock!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9183181935597290774, guid: 1a838631937f1f341bcb58874aececf7,
+        type: 3}
+      propertyPath: NextLevel
+      value: Cutscene6
       objectReference: {fileID: 0}
     - target: {fileID: 9183181935597290858, guid: 1a838631937f1f341bcb58874aececf7,
         type: 3}
@@ -15726,7 +15731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c09c49729a9d4e8cc5651893c47bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Maze8
+  SceneToLoad: Cutscene6
   BlueMode: 0
   BlueController: {fileID: 0}
   LevelChanger: {fileID: 14552968}
